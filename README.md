@@ -11,16 +11,16 @@
 
 | #    | Lecture                           | Status           | Date |
 | ---- | --------------------------------- | ---------------- | --- | 
-| 1    | Why parallelism?                  | :material-check: | 2024-01-12 |
-| 2    | Modern multicore processors       | :material-check: | 2024-01-12 |
-| 3    | Parallel programming models       | :material-check: | 2024-01-14 |
+| 1    | Why parallelism?                  | :white_check_mark: | 2024-01-12 |
+| 2    | Modern multicore processors       | :white_check_mark: | 2024-01-12 |
+| 3    | Parallel programming models       | :white_check_mark: | 2024-01-14 |
 | 4    | Graphic processing units and CUDA |                  | |
 | 5    | Graphic processing units and CUDA (Continued) |                  | |
 | 6    | Parallel programming basics |                  | |
 | 7    | Work distribution and scheduling  |                  | |
 | 8    | Locality, communication, and contention |                  | |
 | 9    | Instruction-level Parallelism |                  | |
-
+|      | ... |                  | |
 
 ## Assignment (1/4)
 
