@@ -1,14 +1,12 @@
 # 15-418/15-618: Parallel Computer Architecture and Programming
 
-## 基本信息
+## Basic Info
 
-- 课程主页：[Schedule](https://www.cs.cmu.edu/afs/cs/academic/class/15418-f23/www/schedule.html)
-- 课程作业：[Assignments](https://www.cs.cmu.edu/afs/cs/academic/class/15418-f23/www/assignments.html)
-- 年份：2023 Fall
+- [Schedule](https://www.cs.cmu.edu/afs/cs/academic/class/15418-f23/www/schedule.html)
+- [Assignments](https://www.cs.cmu.edu/afs/cs/academic/class/15418-f23/www/assignments.html)
+- 2023 Fall
 
-## 当前进度
-
-### Lecture (3/23)
+## Lecture (3/23)
 
 
 | #    | Lecture                           | Status           | Date |
@@ -24,7 +22,7 @@
 | 9    | Instruction-level Parallelism |                  | |
 
 
-### Assignment (1/4)
+## Assignment (1/4)
 
 1. "Exploring parallel computing"
     1. Parallel Fractal Generation Using Pthreads :white_check_mark: 2024/01/15
