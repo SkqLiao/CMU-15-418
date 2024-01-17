@@ -1,0 +1,74 @@
+[
+ {
+  "directory": "/mnt/c/Users/SkqLiao/Desktop/\u8bfe\u7a0b/CMU 15-418 Parallel Computer Architecture and Programming/hw/asst1/prog5_saxpy",
+  "arguments": [
+   "g++",
+   "-m64",
+   "main.cpp",
+   "-I../common",
+   "-Iobjs/",
+   "-O3",
+   "-Wall",
+   "-msse4.1",
+   "-DNDEBUG",
+   "-c",
+   "-o",
+   "objs/main.o"
+  ],
+  "file": "main.cpp"
+ },
+ {
+  "directory": "/mnt/c/Users/SkqLiao/Desktop/\u8bfe\u7a0b/CMU 15-418 Parallel Computer Architecture and Programming/hw/asst1/prog5_saxpy",
+  "arguments": [
+   "g++",
+   "-m64",
+   "saxpySerial.cpp",
+   "-I../common",
+   "-Iobjs/",
+   "-O3",
+   "-Wall",
+   "-msse4.1",
+   "-DNDEBUG",
+   "-c",
+   "-o",
+   "objs/saxpySerial.o"
+  ],
+  "file": "saxpySerial.cpp"
+ },
+ {
+  "directory": "/mnt/c/Users/SkqLiao/Desktop/\u8bfe\u7a0b/CMU 15-418 Parallel Computer Architecture and Programming/hw/asst1/prog5_saxpy",
+  "arguments": [
+   "g++",
+   "-m64",
+   "saxpyStreaming.cpp",
+   "-I../common",
+   "-Iobjs/",
+   "-O3",
+   "-Wall",
+   "-msse4.1",
+   "-DNDEBUG",
+   "-c",
+   "-o",
+   "objs/saxpyStreaming.o"
+  ],
+  "file": "saxpyStreaming.cpp"
+ },
+ {
+  "directory": "/mnt/c/Users/SkqLiao/Desktop/\u8bfe\u7a0b/CMU 15-418 Parallel Computer Architecture and Programming/hw/asst1/prog5_saxpy",
+  "arguments": [
+   "g++",
+   "-m64",
+   "../common/tasksys.cpp",
+   "-I../common",
+   "-Iobjs/",
+   "-O3",
+   "-Wall",
+   "-msse4.1",
+   "-DNDEBUG",
+   "-c",
+   "-o",
+   "objs/tasksys.o"
+  ],
+  "file": "../common/tasksys.cpp"
+ }
+]

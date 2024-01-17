@@ -1,0 +1,50 @@
+[
+ {
+  "directory": "/mnt/c/Users/SkqLiao/Desktop/\u8bfe\u7a0b/CMU 15-418 Parallel Computer Architecture and Programming/hw/asst1/prog1_mandelbrot_threads",
+  "arguments": [
+   "g++",
+   "-m64",
+   "main.cpp",
+   "-I../common",
+   "-Iobjs/",
+   "-O3",
+   "-Wall",
+   "-c",
+   "-o",
+   "objs/main.o"
+  ],
+  "file": "main.cpp"
+ },
+ {
+  "directory": "/mnt/c/Users/SkqLiao/Desktop/\u8bfe\u7a0b/CMU 15-418 Parallel Computer Architecture and Programming/hw/asst1/prog1_mandelbrot_threads",
+  "arguments": [
+   "g++",
+   "-m64",
+   "mandelbrot.cpp",
+   "-I../common",
+   "-Iobjs/",
+   "-O3",
+   "-Wall",
+   "-c",
+   "-o",
+   "objs/mandelbrot.o"
+  ],
+  "file": "mandelbrot.cpp"
+ },
+ {
+  "directory": "/mnt/c/Users/SkqLiao/Desktop/\u8bfe\u7a0b/CMU 15-418 Parallel Computer Architecture and Programming/hw/asst1/prog1_mandelbrot_threads",
+  "arguments": [
+   "g++",
+   "-m64",
+   "../common/ppm.cpp",
+   "-I../common",
+   "-Iobjs/",
+   "-O3",
+   "-Wall",
+   "-c",
+   "-o",
+   "objs/ppm.o"
+  ],
+  "file": "../common/ppm.cpp"
+ }
+]
