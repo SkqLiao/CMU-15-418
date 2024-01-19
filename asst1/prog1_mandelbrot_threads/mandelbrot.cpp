@@ -126,9 +126,9 @@ void *workerThreadStart(void *threadArgs) {
     int maxIterations = args->maxIterations;
     int threadId = args->threadId, numThreads = args->numThreads;
     int *output = args->output;
-
-    int startRow = threadId * height / numThreads;
-    int endRow = (threadId + 1) * height / numThreads;
+    int perThread = (height + numThreads - 1) / numThreads;
+    int startRow = threadId * perThread;
+    int endRow = startRow + perThread;
 
     if (endRow > height)
         endRow = height;
